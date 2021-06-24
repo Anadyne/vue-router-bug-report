@@ -1,0 +1,48 @@
+{
+  "name": "test-front",
+  "version": "0.0.1",
+  "description": "Front",
+  "productName": "Front",
+  "author": "Boris V.Kuznetsov",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.10.7",
+    "core-js": "^3.15.1",
+    "google-protobuf": "^3.17.3",
+    "grpc-web": "^1.2.1",
+    "quasar": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@quasar/app": "^3.0.0",
+    "@types/google-protobuf": "^3.15.2",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
